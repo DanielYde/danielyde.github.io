@@ -1,6 +1,6 @@
 var x = 0
-var speedx = 50
-var speedy = 50
+var speedx = 5
+var speedy = 5
 var y = 350
 
 
