@@ -1,6 +1,6 @@
 var x = 0
-var speedx = 10
-var speedy = 10
+var speedx = 50
+var speedy = 50
 var y = 350
 
 
@@ -15,10 +15,10 @@ function draw() {
   line(0, 527, 600, 527);
   line(0, 272, 600, 272);
   if (y < height - 250 && speedy < 0) {
-    speedy = 10
+    speedy = 50
   } else {
     if (y > height - 150 && speedy > 0) {
-      speedy = -10
+      speedy = -50
     }
     if (x > width + 5) {
       x = -5
