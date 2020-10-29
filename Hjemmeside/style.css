@@ -1,6 +1,6 @@
 a.butt1:link, a.butt1:visited {
-    background-color: silver;
-    color: slategray;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     padding: 10px 25px;
     text-align: center;
     text-decoration: none;
@@ -8,6 +8,6 @@ a.butt1:link, a.butt1:visited {
 }
 
 a.butt1:hover, a.butt1:active {
-    background-color: red;
+    background-color: rgb(112, 111, 111);
     color: white;
 }
