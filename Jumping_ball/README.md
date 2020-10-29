@@ -1,1 +1,1 @@
-[Tilbage til start](School/)
+[Tilbage til start](https://danielyde.github.io/School/)
