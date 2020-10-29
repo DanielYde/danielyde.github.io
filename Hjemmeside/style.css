@@ -9,4 +9,5 @@ a.butt1:link, a.butt1:visited {
 
 a.butt1:hover, a.butt1:active {
     background-color: red;
+    color: white;
 }
