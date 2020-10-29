@@ -1,0 +1,91 @@
+body {
+    background-color: rgb(73, 73, 73);
+}
+
+h1 {
+    text-align: center;
+    background-color: rgb(59, 59, 59);
+    color: white;
+    margin: 20px;
+    border: 1px solid black;
+}
+
+.btn-group button {
+    float: left;
+    position: relative;
+    background-color: rgb(59, 59, 59);
+    border: 1px solid black;
+    color: white;
+    padding: 10px 30px;
+    cursor: pointer;
+
+}
+
+.btn-group button:not(:last-child) {
+    border-right: none;
+}
+
+.btn-group::after {
+    content: "";
+    clear: both;
+}
+
+.btn-group button:hover {
+    background-color: rgb(119, 119, 119);
+}
+
+.btn-1 {
+    margin: 0;
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+
+}
+.btn-2 {
+    margin: 0;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.btn-3 {
+    margin: 0;
+    position: absolute;
+    top: 10%;
+    left: 70%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.btn-4 {
+    margin: 0;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.btn-5 {
+    margin: 0;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.btn-6 {
+    margin: 0;
+    position: absolute;
+    top: 20%;
+    left: 70%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+button {
+    font-family: cursive;
+    font-size: 300;
+    text-decoration: underline overline double white;   
+}
