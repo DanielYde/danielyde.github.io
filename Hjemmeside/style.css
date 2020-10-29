@@ -7,6 +7,6 @@ a.butt1:link, a.butt1:visited {
     display: inline-block;
 }
 
-a:hover, a:active {
+a.butt1:hover, a.butt1:active {
     background-color: red;
 }
