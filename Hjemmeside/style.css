@@ -1,0 +1,12 @@
+a.butt1:link, a.butt1:visited {
+    background-color: silver;
+    color: slategray;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: red;
+}
