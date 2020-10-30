@@ -6,6 +6,7 @@ var speed2 = 0
 var y = 0
 var hop = 0
 
+
 function setup() {
   createCanvas(600, 400);
 }
@@ -80,8 +81,7 @@ function draw() {
       }
     }
   }
-  text = createElement('h2', 'Hej Rasmus, klik på en tast og tryk på skærmen');
-  text.position(80, 5);
+  
 
   x2 = x2 + speed2;
   x = x + speed;
