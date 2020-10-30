@@ -1,6 +1,9 @@
 .left {grid-area: left;}
 .middle {grid-area: middle;}
-.right {grid-area: right;}
+.right {
+    grid-area: right;
+    left: 20%;
+}
 
 .grid-container {
     display: grid;
@@ -17,8 +20,6 @@
     padding: 1em 1em;
     font-size: 30px;
 }
-
-
 
 
 
