@@ -1,10 +1,5 @@
 body {
-    background-color:  rgb(73, 73, 73);
-    display: flex;
-    align-items: center; 
-    justify-content: center;
-    margin-top: 30px;
-    
+    background-color:  rgb(73, 73, 73);    
 }
 
 h1 {
@@ -41,7 +36,7 @@ h1 {
 
 .btn-1 {
     margin: 0;
-    position: absolute;
+    position: fixed;
     top: 10.7%;
     left: 50%;
     -ms-transform: translateX(-50%);
@@ -56,9 +51,10 @@ button {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 .game-container {
+    position: relative;
     display: flex;
     align-items: center; 
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 50px;
   }
   
