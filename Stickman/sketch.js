@@ -5,6 +5,12 @@ var speed = 0
 var speed2 = 0
 var y = 0
 var hop = 0
+var mydiv = document.getElementById('stick');
+
+mydiv.style.position = "absolute";
+mydiv.style.top = "45%"
+mydiv.style.left = "50%"
+
 
 
 function setup() {

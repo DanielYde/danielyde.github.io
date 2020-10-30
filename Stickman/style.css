@@ -1,3 +1,59 @@
+.left {grid-area: left;}
+.middle {grid-area: middle;}
+.right {grid-area: right;}
+
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+    'left left middle right'
+    'left left middle right'
+    'left left middle right';
+    grid-gap: 10px;
+    padding: 10px;
+    width: 80%;
+}
+
+.grid-container > div {
+    padding: 1em 1em;
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 body {
     background-color:  rgb(73, 73, 73);
 }
@@ -10,12 +66,9 @@ h1 {
     border: 1px solid black;
 }
 
-.Stickman {
-    position: relative;
-    left: 50%;
-    top: 50%;
-    -ms-transform: translateX(-50%);
-    transform: translateX(-50%);
+#stick {
+    padding: 10px;
+    width: 200px;    
 }
 
 .btn-group button {
