@@ -1,62 +1,10 @@
-.left {grid-area: left;}
-.middle {grid-area: middle;}
-.right {
-    grid-area: right;
-    left: 20%;
-}
-
-.grid-container {
-    display: grid;
-    grid-template-areas: 
-    'left left middle right'
-    'left left middle right'
-    'left left middle right';
-    grid-gap: 10px;
-    padding: 10px;
-    width: 80%;
-}
-
-.grid-container > div {
-    padding: 1em 1em;
-    font-size: 30px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 body {
     background-color:  rgb(73, 73, 73);
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    margin-top: 30px;
+    
 }
 
 h1 {
@@ -66,14 +14,9 @@ h1 {
     margin: 20px;
     border: 1px solid black;
 }
-
-#stick {
-    padding: 10px;
-    width: 200px;    
-}
-
 .btn-group button {
     float: left;
+
     position: relative;
     background-color: rgb(59, 59, 59);
     border: 1px solid black;
@@ -112,3 +55,10 @@ button {
     border-radius: 12px; 
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
+.game-container {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
