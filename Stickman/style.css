@@ -49,11 +49,10 @@ button {
     border-radius: 12px; 
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
-.game-container {
+#game {
     position: relative;
     display: flex;
     align-items: center; 
     justify-content: center;
-    margin-top: 50px;
-  }
-  
+    margin-top: 100px;
+  }  

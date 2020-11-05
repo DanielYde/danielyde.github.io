@@ -7,7 +7,8 @@ var y = 0
 var hop = 0
 
 function setup() {
-  createCanvas(600, 400);
+  let canvas = createCanvas(600, 400);
+  canvas.parent(game)
 }
 
 function draw() {
