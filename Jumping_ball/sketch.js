@@ -21,8 +21,8 @@ function draw() {
     if (y > height - 25 && speedy > 0) {
       speedy = -10
     }
-    if (x > width + 5) {
-      x = -5
+    if (x > width + 26) {
+      x = -26
     }
   }
   y = y + speedy
