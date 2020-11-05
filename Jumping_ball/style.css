@@ -55,4 +55,12 @@ button {
     align-items: center; 
     justify-content: center;
     margin-top: 100px;
+
+
   }  
+
+#defaultCanvas0 {
+    border: 3px solid black;
+
+}
+ 
