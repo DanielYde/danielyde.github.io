@@ -11,7 +11,8 @@ function setup() {
 }
 
 function draw() {
-  background(220);
+  background(150);
+  fill(200) 
   ellipse(x, y, 50);
 
   if (y < height - 175 && speedy < 0) {
