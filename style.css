@@ -87,55 +87,52 @@ hr.new1 {
     position: absolute;
     border-color: black;
     background: black;
-    top: 9%;
+    top: 78px;
     width: 100%;
     margin: 0%;
-    left: 23%;
+    left: 444px;
     height: 2px;
-    right: -20%;
-    max-width: 53.9%;
+    max-width: 53.5%;
 }
 hr.new2 {
     position: absolute;
     border-color: black;
     background: black;
     color: white;
-    top: 17.5%;
+    top: 161px;
     width: 100%;
     margin: 0%;
-    left: 23%;
+    left: 444px;
     height: 2px;
-    right: -20%;
-    max-width: 53.9%;
+    max-width: 53.5%;
 }
 hr.new3 {
     position: absolute;
     border-color: black;
     background: black;
     color: white;
-    top: 26%;
+    top: 240px;
     width: 100%;
     margin: 0%;
-    left: 23%;
+    left: 444px;
     height: 2px;
-    right: -20%;
-    max-width: 53.9%;
+    max-width: 1027px;
 }
 .vl1 {
     border-left: 6px solid black;
-    height: 17.6%;
+    height: 166px;
     position: absolute;
-    left: 23%;
+    left: 444px;
     margin-left: -3px;
-    top: 9%;
+    top: 78px;
 }
 .vl2 {
     border-left: 6px solid black;
-    height: 17.6%;
+    height: 166px;
     position: absolute;
-    left: 77%;
+    right: 444px;
     margin-left: -3px;
-    top: 9%;
+    top: 78px;
 }
 
 button {
