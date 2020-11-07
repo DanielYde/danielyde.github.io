@@ -70,8 +70,9 @@ article, aside, footer, header, main, nav, section {
     width: 40%;
     float: left;
     margin-bottom: 10px;
-    margin-left: 5%;
-  }
+    margin-left: 30% ;
+    margin-right: 30%;
+    }
   
   aside {
     background-color: #bbbbbb;
