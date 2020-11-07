@@ -41,10 +41,12 @@ article, aside, footer, header, main, nav, section {
     color: white;
     font-size: 175px; 
     width: 1000px; 
-    margin: 200px; 
+    margin: auto; 
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     position: absolute;
     text-align: center;
-    left: 13%; 
     border: 4px solid white; 
     border-radius: 20px; 
 } 
@@ -138,4 +140,7 @@ article, aside, footer, header, main, nav, section {
     font-size: 15px; 
 }
 
-   
+#crew {
+  color: white;
+
+}
