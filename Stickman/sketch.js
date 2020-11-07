@@ -1,8 +1,8 @@
 let input
 var x = 300
 var x2 = 300
-var speed = 0
-var speed2 = 0
+var speed = 15
+var speed2 = -15
 var y = 0
 var hop = 0
 
@@ -47,14 +47,6 @@ function draw() {
   stroke('red')
   arc(x2, 107 - y, 8, 8, 0, PI - QUARTER_PI, CHORD);
 
-  if (keyIsPressed) {
-    speed = 15
-    speed2 = -15
-  }
-
-  if (mouseIsPressed) {
-    hop = 3
-  }
   if (y > height - 350 && hop > 0) {
     hop = -3;
 
@@ -81,6 +73,7 @@ function draw() {
       }
     }
   }
+  
   
 
   x2 = x2 + speed2;
