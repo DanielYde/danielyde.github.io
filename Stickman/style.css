@@ -99,10 +99,10 @@ article, aside, footer, header, main, nav, section {
     background-color: rgb(50, 50, 50);
     border: 1px solid black;
     color: white;
-    padding: 5px;
+    padding: 5px 0px 5px 0px;
     float: left;
     text-decoration: none;
-  }
+    }
 
   footer a {
     color: white;

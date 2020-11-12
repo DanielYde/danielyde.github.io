@@ -106,18 +106,18 @@ article, aside, footer, header, main, nav, section {
     margin-right: 5%;
     }
   
-  #footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 1.2rem;
-    background-color: rgb(50, 50, 50);
-    border: 1px solid black;
-    color: white;
-    padding: 5px;
-    float: left;
-    text-decoration: none;
-    }
+    #footer {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      height: 1.2rem;
+      background-color: rgb(50, 50, 50);
+      border: 1px solid black;
+      color: white;
+      padding: 5px 0px 5px 0px;
+      float: left;
+      text-decoration: none;
+      }
   
   footer a {
     color: white;
