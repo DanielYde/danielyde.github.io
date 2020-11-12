@@ -113,13 +113,14 @@ aside {
 }
 
 footer a {
-  color: white;
+  color: #a3a3a3;
   text-decoration: none;
   padding-left: 10px;
+  transition: ease 0.2s all;
 }
 
 footer a:hover {
-  color: lightgrey;
+  color: white;
   text-decoration: underline white;
 }
 
