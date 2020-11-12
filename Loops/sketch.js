@@ -89,14 +89,14 @@
     function Ligninger() {
       let yligning = 0;
       let xligning = 0;
-      console.log("|Ligninger(1 - 10) y = 3 * x * x + 6 * x + 9|")
+      console.log("|Equations(1 - 10) y = 3 * x * x + 6 * x + 9|")
       while(xligning <= 10){
         yligning = 3 * xligning * xligning + 6 * xligning + 9;
         console.log("|", "y =", yligning, "|" , "x =", xligning, "|")
         xligning = xligning + 1;
 
       }
-      console.log("|Ligninger(10 - 100) y = 3 * x * x + 6 * x + 9|")
+      console.log("|Equations(10 - 100) y = 3 * x * x + 6 * x + 9|")
       xligning = 10;
       while(xligning <= 100) {
         yligning = 3 * xligning * xligning + 6 * xligning + 9;
