@@ -2,7 +2,7 @@
     <script src="../p5lib/p5.js"></script>
     <script src="../p5lib/p5.sound.min.js"></script>
     <title>Programming</title>
-    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="utf-8">
 
   </head>
@@ -17,18 +17,24 @@
     
     <nav>
       <ul>
-        <li ><a href="../index.html" id="current">home</a></li>
+        <li ><a href="../index.html">home</a></li>
         <li><a href="../About/index.html" >about</a></li>
         <li><a href="../Stickman/index.html">stickman</a></li>
         <li><a href="../Jumping_ball/index.html">jumping ball</a></li>
         <li><a href="../Changing_Objects/index.html">changing objects</a></li>
         <li><a href="../Loops/index.html">loops</a></li>
-        <li><a href="../Parabel/index.html">parabola</a></li>
+        <li><a href="../Parabel/index.html" id="current">parabola</a></li>
       </ul>
     </nav>
-    
-    <div id="clock">8:10:45</div> 
-  
+    <div id="button-container">   
+        <button id="minus-ti" onclick="changeVal('val3')">-10</button>
+        <button id="minus-et" onclick="changeVal('val2')">-1</button>
+        <button id="vis-d" onclick="display()">Display D</button>
+        <button id="plus-et" onclick="changeVal('val1')">+1</button>
+        <button id="plus-ti" onclick="changeVal('val4')">+10</button>
+    </div>
+
+    <div id="game"></div>
     <script src="sketch.js"></script> 
 </body> 
 
