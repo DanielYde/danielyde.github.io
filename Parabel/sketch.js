@@ -40,7 +40,7 @@ function draw() {
     line(bx, by, cx, cy)
 
     //Linjerne
-    if (d <= 100) {
+    if (d <= 1000) {
         while (i<d) {    
             line(ax+((n/3)*i), ay-((n/3)*2*i), bx+((n/3)*i), by+((n/3)*2*i));
             line(cx-((n/3)*i), cy-((n/3)*2*i), bx-((n/3)*i), by+((n/3)*2*i));
