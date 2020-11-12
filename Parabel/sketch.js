@@ -33,6 +33,7 @@ function draw() {
     let n = 447.21/d;
     let i = 1;
     //Punkterne
+    fill('black')
     circle(ax, ay, 10);
     circle(bx, by, 10);
     circle(cx, cy, 10);
