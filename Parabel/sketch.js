@@ -19,7 +19,7 @@ function changeVal(choice) {
    globalChoice = d;
 }
 function display(){
-    alert('Lines = ' + globalChoice*2);
+    alert('Lines = ' + (globalChoice*2-2));
 }
 
 function draw() {
